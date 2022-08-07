@@ -1,0 +1,306 @@
+
+.resume-page {
+ display: grid;
+ grid-template-columns: 2fr 2fr 1fr;
+ grid-template-rows: 1fr 1fr 2fr 2fr 1fr;
+
+ grid-template-areas: 
+ "header header header"
+ "mission mission sidebar"
+ "education education sidebar"
+ "experience experience sidebar"
+ "interests interests sidebar";
+
+ box-sizing: border-box;
+ max-width: 50vw;
+ min-height: 95vh;
+ right: 25%;
+ border: 5px solid #ffd700;
+ border-radius: 10px;
+ font-family: 'Coolvetica';
+
+br {
+  display: block;
+  background-color: #ffd700;
+}
+
+ header {
+  grid-area: header;
+  color: #fff;
+  border-bottom: 2px solid #ffd700;
+  
+  h1 {
+   font-size: 48px;
+   margin-left: 20px;
+  }
+
+  p {
+   font-size: 24px;
+   margin-left: 20px;
+  }
+ }
+
+ .personal-info {
+  color: #ffd700;
+  border-left: 2px solid #ffd700;
+  grid-area: sidebar;
+  margin: 0 0;
+  display: grid;
+  grid-template: 2fr 1fr 1fr 1fr 1fr 1fr / 1fr 1fr;
+  grid-template-areas: 
+  "header header"
+  "contact contact"
+  "skill skill"
+  "skill skill"
+  "skill skill"
+  "skill skill";
+
+
+  h1 {
+    padding-left: 15px;
+    grid-area: header;
+
+    br {
+      margin: 0;
+    }
+  }
+ 
+  .contact {
+    grid-area: contact;
+    margin-top: -150px;
+
+    p {
+      color: #fff;
+      font-size: 14px;
+      margin: 0;
+      padding-bottom: 5px;
+      padding-left: 15px;
+    }
+  }
+
+  .skills {
+    grid-area: skill;
+    margin-top: -200px;
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr 1fr 1fr / 2fr 1fr;
+    grid-template-areas:
+    "header header" 
+    "skill-1 level-1"
+    "skill-2 level-2"
+    "skill-3 level-3"
+    "skill-4 level-4"
+    "skill-5 level-5";
+
+    h1 {
+      padding-left: 15px;
+      grid-area: header;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      color: #fff;
+    }
+
+    .skill-1 {
+      padding-left: 15px;
+    }
+    .skill-1 > h2 {
+      grid-area: skill-1;;
+    }
+    .level-1 {
+      grid-area: level-1;
+    }
+    
+    .dot {
+      height: 15px;
+      width: 15px;
+      background-color: #ffd700;
+      border-radius: 50%;
+      display: inline-block;
+    }
+    .final-dot {
+      height: 15px;
+      width: 15px;
+      background-color: transparent;
+      border-radius: 50%;
+      border: 1px solid #ffd700;
+      display: inline-block;
+    }
+  }
+
+
+ }
+
+ .mission {
+  color: #fff;
+  border-bottom: 2px solid #ffd700;
+  grid-area: mission;
+  padding: 10px 10px;
+  font-size: 18px;
+ }
+ 
+ .education {
+  color: #fff;
+  border-bottom: 2px solid #ffd700;
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr / 1fr 2fr;
+  grid-template-areas: 
+  "heading cert"
+  "years cert"
+  ". cert"
+  ". cert";
+  grid-area: education;
+
+  h1 {
+   color: #ffd700;
+   grid-area: heading;
+   margin: 0 0;
+   padding-left: 15px;
+  }
+
+  h2 {
+   grid-area: years;
+   padding-left: 15px;
+   margin: 0 0;
+  }
+
+  ul {
+    margin: 0;
+    font-size: 16px;
+    grid-area: cert;
+    list-style: none;
+    a {
+      color: #fff;
+    }
+    a > div {
+      display: none;
+    }
+    a:hover > div {
+      display: block;
+    }
+    
+    a > div > img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+    li {
+      padding: 10px;
+    }
+  }
+ }
+
+ .experience {
+  color: #fff;
+  border-bottom: 2px solid #ffd700;
+  grid-area: experience;
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr / 1fr 3r;
+  grid-template-areas: 
+  "heading exp1 "
+  "years exp2"
+  ". exp3"
+  ". exp4";
+
+  h1, h2 {
+    padding-left: 15px;
+  }
+
+  h1 {
+    margin-top: 0;
+    grid-area: heading;
+    color: #ffd700;
+  }
+  
+  h2 {
+    grid-area: years;
+    margin-top: -90px;
+  }
+
+
+  ul.exp1 {
+    margin-top: 5px;
+    grid-area: exp1;
+    font-size: 18px;
+    padding-left: 190px;
+    
+
+    li {
+      padding-left: 20px;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+  }
+
+  ul.exp2 {
+    margin-top: 5px;
+    grid-area: exp2;
+    font-size: 18px;
+    padding-left: 190px;
+    
+
+    li {
+      padding-left: 20px;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+  }
+ }
+
+ .interests {
+  color: #fff;
+  border-bottom: 2px solid #ffd700;
+  grid-area: interests;
+  display: grid;
+  grid-template: 1fr 2fr / 1fr 1fr;
+
+  h1 {
+    margin-top: 0;
+    color: #ffd700;
+  }
+
+  h1, h3 {
+    padding-left: 15px;
+  }
+
+ }
+
+}
+
+
+
+
+
+
+
+
+
+
+// Text animation styles
+
+.text-animate {
+ display: inline-block;
+ opacity: 0;
+ animation: bounceIn;
+ animation-duration: 1s;
+ animation-delay: 1s;
+ animation-fill-mode: forwards;
+ min-width: 10px;
+}
+
+.text-animate-hover-resume {
+ min-width: 10px;
+ display: inline-block;
+ animation-fill-mode: both;
+
+ &:hover {
+   animation: rubberBand 1s;
+   color: #ffd700;
+ }
+}
+
+@for $i from 1 through 35 {
+ .text-animate._#{$i} {
+   animation-delay: #{$i / 10}s;
+ }
+}

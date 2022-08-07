@@ -1,0 +1,16 @@
+.logo-container {
+ width: 20%;
+ height: 10%;
+ position: absolute;
+ top: 15%;
+ right: 30%;
+ opacity: 0;
+ animation: fadeIn 1.5s 2.5s;
+ animation-fill-mode: forwards;
+
+ img {
+  position: relative;
+  height: 600px;
+ 
+ }
+}
