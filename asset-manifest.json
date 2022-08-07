@@ -1,25 +1,15 @@
 {
   "files": {
-    "main.css": "/ConradQQ.github.io/static/css/main.fd4a2b6b.css",
-    "main.js": "/ConradQQ.github.io/static/js/main.858ef01a.js",
-    "static/js/787.a2cb61a6.chunk.js": "/ConradQQ.github.io/static/js/787.a2cb61a6.chunk.js",
-    "static/media/headshot.png": "/ConradQQ.github.io/static/media/headshot.c670bf50beaf7004ec67.png",
-    "static/media/bootstrap-icons.woff?": "/ConradQQ.github.io/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
-    "static/media/bootstrap-icons.woff2?": "/ConradQQ.github.io/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
-    "static/media/fcc-js-cert.png": "/ConradQQ.github.io/static/media/fcc-js-cert.618904a5fdd6f1774635.png",
-    "static/media/fcc-web-design-cert.png": "/ConradQQ.github.io/static/media/fcc-web-design-cert.8ba03a8fe0d10eb7c7ae.png",
-    "static/media/ca-css-cert.png": "/ConradQQ.github.io/static/media/ca-css-cert.9901193d7e33b70e40fb.png",
-    "static/media/helvetica-neu.ttf": "/ConradQQ.github.io/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
-    "static/media/LaBelleAurore.woff2": "/ConradQQ.github.io/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
-    "static/media/logo-s.png": "/ConradQQ.github.io/static/media/logo-s.552d5224a72fc6e332cb.png",
-    "static/media/CoolveticaRg-Regular.woff2": "/ConradQQ.github.io/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
-    "index.html": "/ConradQQ.github.io/index.html",
-    "main.fd4a2b6b.css.map": "/ConradQQ.github.io/static/css/main.fd4a2b6b.css.map",
-    "main.858ef01a.js.map": "/ConradQQ.github.io/static/js/main.858ef01a.js.map",
-    "787.a2cb61a6.chunk.js.map": "/ConradQQ.github.io/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/random-quote-generator/static/css/main.204dbfa5.css",
+    "main.js": "/random-quote-generator/static/js/main.e7834a46.js",
+    "static/js/787.2b65cf91.chunk.js": "/random-quote-generator/static/js/787.2b65cf91.chunk.js",
+    "index.html": "/random-quote-generator/index.html",
+    "main.204dbfa5.css.map": "/random-quote-generator/static/css/main.204dbfa5.css.map",
+    "main.e7834a46.js.map": "/random-quote-generator/static/js/main.e7834a46.js.map",
+    "787.2b65cf91.chunk.js.map": "/random-quote-generator/static/js/787.2b65cf91.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd4a2b6b.css",
-    "static/js/main.858ef01a.js"
+    "static/css/main.204dbfa5.css",
+    "static/js/main.e7834a46.js"
   ]
 }
